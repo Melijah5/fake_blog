@@ -30,7 +30,7 @@ header {
 }
 
 td {
-    text-align: left;
+    text-align: center;
 }
 
 th {
@@ -56,4 +56,27 @@ th {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+}
+
+.nav {
+    float: left;
+    width: 30%;
+    padding: 20px;
+    height: 300px;
+}
+
+section::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+h1 {
+    color: red;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Kranky', cursive;
 }
